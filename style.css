@@ -1,0 +1,45 @@
+/* Set up the flex container */
+
+body {
+    font-family: 'Fira Sans', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .container, .box {
+      display: flex;
+      justify-content: space-around; /* Distribute items evenly along the main axis */
+      padding: 16px;
+      background-color: lightcyan;
+    }
+  
+    .space, .horizontal, .top {
+      display: flex;
+    }
+
+    .space, .top {
+      flex-direction: column;
+    }
+
+    h1, p, label {
+      text-align: center;
+    }
+
+    select {
+      max-width: 100px;
+    }
+    .pixel {
+        border: 2px solid #000;
+        background-color: #fff;
+        min-width: 4px;
+        min-height: 4px;
+    }
+  
+    /* Style the buttons */
+    button {
+      padding: 10px; /* Add padding for spacing */
+      background-color: #f0f0f0;
+      border: 4px solid #ccc;
+      border-radius: 16px;
+      padding: 24px;
+      margin: 24px;
+      flex-grow: 1;
+      min-width: 0;
+    }
