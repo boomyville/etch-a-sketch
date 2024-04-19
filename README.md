@@ -6,3 +6,5 @@ A javascript based etch-a-sketch program as part of the Odin Project
 Works only well with mouse input and not touch input
 
 My bad for using mouseover instead of hover for eventListener
+
+![Image of App]([https://github.com/boomyville/calculator/blob/main/calc.gif?raw=true](https://github.com/boomyville/etch-a-sketch/blob/main/demo.gif?raw=true))
